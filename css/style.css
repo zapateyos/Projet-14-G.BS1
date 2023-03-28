@@ -2,3 +2,31 @@ html, body{
     margin: 0;
     padding: 0;
 }
+.paquet{
+    display: flex;
+    justify-content: space-evenly;
+}
+.panels{
+
+    background-color: powderblue;
+
+    width: 100vw;
+
+    display:flex;
+}
+
+.panel{
+
+    height: 100%;
+    flex:1;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition : flex .7s ease-in-out;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
