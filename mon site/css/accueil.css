@@ -3,7 +3,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 2px black solid;
+    border: 3px black solid;
 }
 .panels{
     height: 100vh;
@@ -12,7 +12,6 @@
 }
 
 .panel{
-
     height: 100%;
     flex:1;
 
@@ -22,13 +21,11 @@
     transition : flex .7s ease-in-out;
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:flex-start;
     
     font-size: 4em;
     color: white;
-    
-
 }
 
 .panel:hover{
@@ -38,7 +35,7 @@
     opacity: 100%;
 }
 .porsche{
-    background-image: url("../img/porschecover.jpg");
+    background-image: url("../img/porschecover2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -56,9 +53,22 @@
     background-repeat: no-repeat;
 }
 .mercedes{
-    background-image: url("../img/mercocover2.jpg");
+    background-image: url("../img/mercocover3.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 
 }
+.navbar{
+    position: fixed;
+    overflow:hidden;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    
+}
+.container{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
